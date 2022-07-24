@@ -2,16 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A blog" />
     <link href="css/style.css" rel="stylesheet" />
-    <title>| Sigel Page</title>
+    <title>| Singel page</title>
   </head>
   <body>
+    <nav>
+      <div id="logo"></div>
+      <div id="sideNav" class="mdSideNav"></div>
+      <span class="openNav" onclick="openSideNav()" onkeyup="openSideNav()">&#9776;</span>
+    </nav>
     <header>
-      <nav></nav>
+      <h1 class="hedder"></h1>
     </header>
-    <main></main>
-    <footer></footer>
-    <script src="js/script.js"></script>
+    <main>
+      <section class="container">
+        <div class="post-grid">
+          <div class="content post-results">
+            <div class="lodder-container">
+              <div class="lodder-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="footer"></div>
+    </footer>
   </body>
+  <script src="js/components/error.js"></script>
+  <script src="js/components/categories.js"></script>
+  <script src="js/components/logo.js"></script>
+  <script src="js/components/post_details.js"></script>
+  <script src="js/script.js"></script>
 </html>
