@@ -25,21 +25,33 @@ getPosts();
 function postsListDetails(posts) {
   postsConteiner.innerHTML = "";
   for (let i = 0; i < posts.length; i++) {
+    //formating the date
+    const postDate = posts[i];
+    const date = new Date(postDate.date);
+    const formattedDate = date.toLocaleDateString();
     postsConteiner.innerHTML += `
         <div class="post-details">
          <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of "/> 
          <h3> ${posts[i].title.rendered}</h3>
-         <p>${posts[i].id}</p>
-         <a href="/blog_singel_page.html?post_id=${posts[i].id}">${posts[i].slug}</a>
+         <div class="pots-btn-box">
+         <a class="pots-btn-read-more" href="/blog_singel_page.html?post_id=${posts[i].id}">Read more</a>
+         </div>
+         <p class="entry-date">${posts[i].type} ${posts[i].status}:${formattedDate}</p>
         </div>`;
   }
   for (let i = 0; i < posts.length; i++) {
+    //formating the date
+    const postDate = posts[i];
+    const date = new Date(postDate.date);
+    const formattedDate = date.toLocaleDateString();
     postsConteiner.innerHTML += `
         <div class="post-details">
          <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of "/> 
          <h3> ${posts[i].title.rendered}</h3>
-         <p>${posts[i].id}</p>
-         <a href="/blog_singel_page.html?post_id=${posts[i].id}">${posts[i].slug}</a>
+         <div class="pots-btn-box">
+         <a class="pots-btn-read-more" href="/blog_singel_page.html?post_id=${posts[i].id}">Read more</a>
+         </div>
+         <p class="entry-date">${posts[i].type} ${posts[i].status}:${formattedDate}</p>
         </div>`;
   }
 

@@ -24,6 +24,7 @@ function postsListDetails(posts) {
          <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of "/>
          <h3> ${posts[i].title.rendered}</h3>
          <p>${posts[i].id}</p>
+         <p>${posts[i].excerpt.rendered}</p>
          <a href="/blog_singel_page.html?post_id=${posts[i].id}">${posts[i].slug}</a>
         </div>`;
   }

@@ -22,13 +22,21 @@ function postsListDetails(posts) {
   postsConteiner.innerHTML = "";
   for (let i = 0; i < posts.length; i++) {
     document.title = posts[i].id;
+    //
+    const postDate = posts[i];
+    const date = new Date(postDate.date);
+    const formattedDate = date.toLocaleDateString();
+    console.log(formattedDate);
     postsConteiner.innerHTML += `
         <div class="post-details">
         <a href="/blog_singel_page.html?post_id=${posts[i].id}"> 
          <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of "/>
          <h3> ${posts[i].title.rendered}</h3>
-         <p>${posts[i].id}</p>
-         ${posts[i].slug}</a>
+         </a>
+         <div class="pots-btn-box">
+         <a class="pots-btn-read-more" href="/blog_singel_page.html?post_id=${posts[i].id}">Read more</a>
+         </div>
+         <p class="entry-date">${posts[i].type} ${posts[i].status}:${formattedDate}</p>
         </div>`;
   }
   console.log(posts);

@@ -22,7 +22,7 @@ function postDetails(details) {
   document.title = details.title.rendered;
   detailsConteiner.innerHTML = `
   <div class="post-results"> 
-        <div class="post-details">
+        <div class="post-details-page">
         <div class="block_1">
           <div class="alert_block" id="alert_block_popup-1">
             <div class="alert_block_overlay" onclick="toggleAlertBlock()"
@@ -35,7 +35,6 @@ function postDetails(details) {
         </div>
          <img class="post-img-thumbnai alert" onclick="toggleAlertBlock()" onkeyup="toggleAlertBlock()" src="${details.jetpack_featured_media_url}" alt="Image of "/>
          <h3> ${details.title.rendered}</h3>
-         <p>${details.id}</p>
          <p>${details.content.rendered}</p>
         </div>
       </div>`;
