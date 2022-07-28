@@ -22,7 +22,6 @@ function postsListDetails(posts) {
   postsConteiner.innerHTML = "";
   for (let i = 0; i < posts.length; i++) {
     document.title = posts[i].id;
-    //
     const postDate = posts[i];
     const date = new Date(postDate.date);
     const formattedDate = date.toLocaleDateString();
