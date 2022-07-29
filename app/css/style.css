@@ -95,7 +95,7 @@ a {
 */
 
 .container {
-    width: 45%;
+    width: 65%;
     padding-top: 65px;
 }
 
@@ -137,7 +137,10 @@ a {
 }
 .content-wrapper {width: 100%;}
 
-.contact-container {display: flex;}
+.contact-container {
+    display: flex;
+    width: 100%;
+}
 
 /*
 * WP Block
@@ -322,6 +325,7 @@ input[type=submit] {
 .form-container {
     padding-top: 10px;
     margin-bottom: -19rem;
+    width: 80%;
 }
 
 .form-passed {
@@ -645,6 +649,9 @@ button{
         width: 100%;
         text-align: right;
     }
+    .form-container {
+        width: 90%;
+    }
 
     .boxtest {
         display: grid;
@@ -672,7 +679,7 @@ button{
     .contact-container {
         display: block;
     }
-    
+
     .text-box {
         display: none;
     }
@@ -692,5 +699,6 @@ button{
     .contact-text-box {
         word-break: break-word;
         font-size: 1em;
-    }
+        padding: 25px 10px 25px 10px;
+    }    
 }
