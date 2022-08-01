@@ -29,7 +29,7 @@ function postsListDetails(posts) {
     postsConteiner.innerHTML += `
         <div class="post-details">
         <a href="/blog_singel_page.html?post_id=${posts[i].id}"> 
-         <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of "/>
+         <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of ${posts[i].media_details}"/>
          <h3> ${posts[i].title.rendered}</h3>
          </a>
          <div class="pots-btn-box">

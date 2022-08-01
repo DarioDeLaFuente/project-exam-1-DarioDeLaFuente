@@ -6,7 +6,7 @@ const logoConteiner = document.querySelector("#logo");
 
 function getLogo() {
   logoConteiner.innerHTML += `
-  <a href="/index.html"><img class="img-logo" src="${logoImg}" alt="Image of "/></a>
+  <a href="/index.html"><img class="img-logo" src="${logoImg}" alt="Image of col logo"/></a>
   `;
 }
 getLogo();
