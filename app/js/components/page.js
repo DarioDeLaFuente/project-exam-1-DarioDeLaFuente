@@ -26,8 +26,8 @@ function page(pageDetails) {
   document.title = pageDetails.title.rendered;
   pageConteiner.innerHTML = `
   <div class="content-box"> 
+    <div class="form-passed"></div>
       <h3> ${pageDetails.title.rendered}</h3>
       <p> ${pageDetails.content.rendered}</p>
-      <div class="form-passed"></div>
   </div>`;
 }

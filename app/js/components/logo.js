@@ -1,6 +1,6 @@
 // API for get requests
-const media = "https://projectexamone.adaptmedia.net/app/uploads/2022/05/";
-const logo = "logo.png";
+const media = "https://projectexamone.adaptmedia.net/app/uploads/2022/08/";
+const logo = "logo.webp";
 const logoImg = media + logo;
 const logoConteiner = document.querySelector("#logo");
 
