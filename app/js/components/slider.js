@@ -31,7 +31,7 @@ function postsListDetails(posts) {
     const formattedDate = date.toLocaleDateString();
     postsConteiner.innerHTML += `
         <div class="post-details">
-         <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of "/> 
+         <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of ${posts[i].title.rendered}"/> 
          <h3> ${posts[i].title.rendered}</h3>
          <div class="pots-btn-box">
          <a class="pots-btn-read-more" href="/blog_singel_page.html?post_id=${posts[i].id}">Read more</a>
@@ -46,7 +46,7 @@ function postsListDetails(posts) {
     const formattedDate = date.toLocaleDateString();
     postsConteiner.innerHTML += `
         <div class="post-details">
-         <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of "/> 
+         <img class="post-img-thumbnai" src="${posts[i].jetpack_featured_media_url}" alt="Image of ${posts[i].title.rendered}"/> 
          <h3> ${posts[i].title.rendered}</h3>
          <div class="pots-btn-box">
          <a class="pots-btn-read-more" href="/blog_singel_page.html?post_id=${posts[i].id}">Read more</a>

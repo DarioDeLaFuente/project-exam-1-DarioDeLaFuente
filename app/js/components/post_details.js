@@ -29,11 +29,11 @@ function postDetails(details) {
             onkeyup="toggleAlertBlock()"></div>
             <div class="alert_block_content">
               <div class="product_description">
-              <img class="post-img-thumbnai-zoom" src="${details.jetpack_featured_media_url}" alt="Image of "/></div>
+              <img class="post-img-thumbnai-zoom" src="${details.jetpack_featured_media_url}" alt="Image of ${details.title.rendered} "/></div>
             </div>
           </div>
         </div>
-         <img class="post-img-thumbnai alert" onclick="toggleAlertBlock()" onkeyup="toggleAlertBlock()" src="${details.jetpack_featured_media_url}" alt="Image of "/>
+         <img class="post-img-thumbnai alert" onclick="toggleAlertBlock()" onkeyup="toggleAlertBlock()" src="${details.jetpack_featured_media_url}" alt="Image of ${details.title.rendered}"/>
          <h3> ${details.title.rendered}</h3>
          <p>${details.content.rendered}</p>
         </div>
