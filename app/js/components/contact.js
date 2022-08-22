@@ -46,7 +46,7 @@ function validate(event) {
 }
 
 function displayFormSuccess(formSuccessMessage = "SuccessMessage") {
-  return `<div class="form-success"><div class="success-message-text">${formSuccessMessage}</div><div class="success-message-conteiner"></div></div>`;
+  return `<div class="form-success"><div class="success-message-text form-passed">${formSuccessMessage}</div><div class="success-message-conteiner"></div></div>`;
 }
 function validateEmail(email) {
   const regEx = /\S+@\S+\.\S+/;
