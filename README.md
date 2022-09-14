@@ -1,6 +1,6 @@
 # WP blogg the Project Exam 1
 
-![image](https://projectexamone.adaptmedia.net/app/uploads/2022/08/copy.webp)
+![image](https://schoolassignment.adaptmedia.net/app/uploads/2022/09/Screenshot-2022-09-14-at-15.41.30.png)
 
 This is a simple overview of the use/purpose of the project.
 
