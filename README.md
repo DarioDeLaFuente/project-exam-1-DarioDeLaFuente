@@ -1,11 +1,31 @@
-## Project Exam 1
+# WP blogg the Project Exam 1
 
-## Goal
+![image](https://projectexamone.adaptmedia.net/app/uploads/2022/08/copy.webp)
 
-To put into practice the skills learned over your first year of studies.
+This is a simple overview of the use/purpose of the project.
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
+## Description
+
+A detailed description of what the project entails and set out to do.
+The project exam reflects my creative and technical knowledge and skills based on the first semester curriculum. This includes design principles, project management, communication technology, and developing with HTML/CSS.
+
+This are some bullet points:
+
+- The HTML i semantic and neat.
+- CSS, I follow the DRY principle it makes it easy to read.
+- The website i responsive and look good at every screen size with no horizontal scrollbars. 
+- I use Flexbox and CSS Grids where appropriate. 
+- I do not use a CSS framework like Bootstrap, The want to see that we can build responsive sites without the help of a framework.
+- The site is WCAG compliant and accessibility taken into account.
+- Each page has a unique meta description, title, and h1.
+- All code submitted is written by me. 
+- The site download quickly, and is not overly "heavy". Images are not over 200kb.
+- The is easy to use on a variety of devices.
+- The site show consideration for content strategy and SEO (i considerd the use of meta tags and alt text).
+
+
+## This is the exam brief:
+I have been tasked with creating a blog site. I choose to design a art blog, contains the following pages:
 -	Home page
 -	About page
 -	List of blog posts
@@ -45,23 +65,55 @@ The project has two aspects:
 
 You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
 
-## Level 1 Process
+## Built With
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
+A list of the tech stack that i used:
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
+- [HTHL](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [WP API](https://developer.wordpress.org/rest-api/)
+- [POSTMAN](https://www.postman.com/)
+- [DOCKER](https://docs.docker.com/get-started/)
 
+## Getting Started
+
+### Installing
+
+This is how to get the project started.
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/DarioDeLaFuente/project-exam-1-DarioDeLaFuente.git
+```
+### Running
+
+To run the porodject, run the following commands:
+
+## RUN DOCKER
+```
+docker-compose up -d
+```
+```
+docker-compose start
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+## END DOCKER
+> 
+```
+docker-compose stop
+```
+
+## Link to the site: https://vermillion-donut-4575b5.netlify.app/index.html 
+
+## Contact
+
+[My LinkedIn page]()
